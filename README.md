@@ -10,29 +10,30 @@ The system is deterministic, auditable, and production-oriented — not a demo c
 
 🎯 Problem This Solves
 
-As fintech systems scale, operations teams face:
+1. As fintech systems scale, operations teams face:
 
-Failed or delayed payments
+2. Failed or delayed payments
 
-Billing inconsistencies
+3. Billing inconsistencies
 
-Repeated customer issues
+4. Repeated customer issues
 
-Alert fatigue and noisy signals
+5. Alert fatigue and noisy signals
 
-Risky automation without proper controls
+6. Risky automation without proper controls
 
-FinOps Guardian addresses this by combining:
+7. FinOps Guardian addresses this by combining:
 
-Specialized ops agents
+8. Specialized ops agents
 
-Central orchestration
+9. Central orchestration
 
-Explicit safety and audit gates
+10. Explicit safety and audit gates
 
-Secure AI integration
+11. Secure AI integration
 
 🧠 High-Level Architecture
+
 Raw Operational Events (JSON)
             ↓
 MCP Boundary (Safe AI Interface)
@@ -49,14 +50,14 @@ Final Decisions (Human-Ready Output)
 
 🧩 Core Design Principles
 
-Separation of concerns
+1.Separation of concerns
 
-Deterministic logic before AI reasoning
+2.Deterministic logic before AI reasoning
 
-Human-in-the-loop by default
+3.Human-in-the-loop by default
 
-No direct financial actions
+4.No direct financial actions
 
-Clear audit trail
+5.Clear audit trail
 
 This mirrors how real fintech systems are designed.
