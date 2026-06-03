@@ -3,6 +3,7 @@
 
 FinOps Guardian is a production-grade, safety-first, AI-assisted operations monitoring system designed for modern fintech platforms. It monitors critical systems (payment gateways, subscription billing, bank data-sharing flows, support tickets), routes operational events to specialized deterministic agents, enforces strict human-in-the-loop compliance checks, and exposes the workflow securely via MCP (Model Context Protocol).
 
+**Live Deployment Link**: https://finops-guardian-bnoq8h6ykygx4pxkwc9bzs.streamlit.app/
 ---
 
 ## 🚀 Key Features
