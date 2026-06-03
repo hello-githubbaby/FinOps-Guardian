@@ -1,0 +1,170 @@
+[
+  {
+    "event_id": "evt_pay_001",
+    "event_type": "payment",
+    "timestamp": "2026-06-03T10:15:30Z",
+    "payload": {
+      "transaction_id": "tx_88301",
+      "payment_status": "failed",
+      "amount": 1500.0,
+      "currency": "INR",
+      "gateway": "Razorpay",
+      "gateway_response_code": "INSUFFICIENT_FUNDS",
+      "processing_time_seconds": 1.2
+    }
+  },
+  {
+    "event_id": "evt_pay_002",
+    "event_type": "payment",
+    "timestamp": "2026-06-03T10:16:00Z",
+    "payload": {
+      "transaction_id": "tx_88302",
+      "payment_status": "success",
+      "amount": 25000.0,
+      "currency": "INR",
+      "gateway": "Cashfree",
+      "gateway_response_code": "SUCCESS",
+      "processing_time_seconds": 32.5
+    }
+  },
+  {
+    "event_id": "evt_pay_003",
+    "event_type": "payment",
+    "timestamp": "2026-06-03T10:16:15Z",
+    "payload": {
+      "transaction_id": "tx_88303",
+      "payment_status": "success",
+      "amount": 499.0,
+      "currency": "INR",
+      "gateway": "Razorpay",
+      "gateway_response_code": "SUCCESS",
+      "processing_time_seconds": 0.8
+    }
+  },
+  {
+    "event_id": "evt_pay_004",
+    "event_type": "payment",
+    "timestamp": "2026-06-03T10:16:20Z",
+    "payload": {
+      "transaction_id": "tx_88303",
+      "payment_status": "success",
+      "amount": 499.0,
+      "currency": "INR",
+      "gateway": "Razorpay",
+      "gateway_response_code": "SUCCESS",
+      "processing_time_seconds": 0.8
+    }
+  },
+  {
+    "event_id": "evt_bill_001",
+    "event_type": "billing",
+    "timestamp": "2026-06-03T10:17:00Z",
+    "payload": {
+      "invoice_id": "inv_9901",
+      "customer_id": "cust_usr_391",
+      "subscription_plan": "Enterprise Alpha",
+      "charged_amount": 12500.00,
+      "expected_amount": 12500.00,
+      "billing_cycle": "monthly",
+      "data_transfer_count": 845,
+      "max_allowed_transfers": 1000
+    }
+  },
+  {
+    "event_id": "evt_bill_002",
+    "event_type": "billing",
+    "timestamp": "2026-06-03T10:18:12Z",
+    "payload": {
+      "invoice_id": "inv_9902",
+      "customer_id": "cust_usr_445",
+      "subscription_plan": "Growth Tier",
+      "charged_amount": 4500.00,
+      "expected_amount": 4200.00,
+      "billing_cycle": "monthly",
+      "data_transfer_count": 520,
+      "max_allowed_transfers": 500
+    }
+  },
+  {
+    "event_id": "evt_bill_003",
+    "event_type": "billing",
+    "timestamp": "2026-06-03T10:19:00Z",
+    "payload": {
+      "invoice_id": "inv_9903",
+      "customer_id": "cust_usr_772",
+      "subscription_plan": "Basic Starter",
+      "charged_amount": 150.00,
+      "expected_amount": 0.00,
+      "billing_cycle": "usage-based",
+      "data_session_status": "failed",
+      "data_transfer_count": 0,
+      "max_allowed_transfers": 100
+    }
+  },
+  {
+    "event_id": "evt_bill_004",
+    "event_type": "billing",
+    "timestamp": "2026-06-03T10:19:30Z",
+    "payload": {
+      "invoice_id": "inv_9904",
+      "customer_id": "cust_usr_881",
+      "subscription_plan": "Enterprise Beta",
+      "charged_amount": 999.00,
+      "expected_amount": 999.00,
+      "is_duplicate_invoice": true,
+      "billing_cycle": "monthly"
+    }
+  },
+  {
+    "event_id": "evt_supp_001",
+    "event_type": "support",
+    "timestamp": "2026-06-03T10:20:00Z",
+    "payload": {
+      "ticket_id": "tkt_5501",
+      "customer_id": "cust_usr_102",
+      "ticket_category": "account_linking",
+      "ticket_content": "Getting an error loop when trying to authenticate my HDFC Bank account via the consent manager. It goes back to login screen every time.",
+      "resolution_time_hours": 1.5,
+      "customer_sentiment": "negative"
+    }
+  },
+  {
+    "event_id": "evt_supp_002",
+    "event_type": "support",
+    "timestamp": "2026-06-03T10:21:00Z",
+    "payload": {
+      "ticket_id": "tkt_5502",
+      "customer_id": "cust_usr_844",
+      "ticket_category": "data_sharing_failure",
+      "ticket_content": "I approved the data request for my HDFC Bank statement, but the application says the data fetch timed out. I tried twice and it failed both times.",
+      "resolution_time_hours": 2.1,
+      "customer_sentiment": "angry"
+    }
+  },
+  {
+    "event_id": "evt_supp_003",
+    "event_type": "support",
+    "timestamp": "2026-06-03T10:22:30Z",
+    "payload": {
+      "ticket_id": "tkt_5503",
+      "customer_id": "cust_usr_905",
+      "ticket_category": "billing_issue",
+      "ticket_content": "I noticed an incorrect charge on my bank statement for plan billing. Please refund this amount.",
+      "resolution_time_hours": 28.5,
+      "customer_sentiment": "negative"
+    }
+  },
+  {
+    "event_id": "evt_supp_004",
+    "event_type": "support",
+    "timestamp": "2026-06-03T10:23:45Z",
+    "payload": {
+      "ticket_id": "tkt_5504",
+      "customer_id": "cust_usr_211",
+      "ticket_category": "otp_delivery_failure",
+      "ticket_content": "The State Bank of India OTP page did not load, so I could not authorize the bank connection.",
+      "resolution_time_hours": 0.5,
+      "customer_sentiment": "neutral"
+    }
+  }
+]
